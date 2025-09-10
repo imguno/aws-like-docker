@@ -46,11 +46,11 @@ EC2 컨테이너 생성
  - S3와 Route53도 각각 적절한 공식 이미지를 사용하여 컨테이너를 생성합니다.
 모든 컨테이너는 사용자 정의 네트워크(mynetwork)에 연결됩니다.
 
-### RDS(MySQL) 컨테이너 생성
+***RDS(MySQL) 컨테이너 생성***
 ```bash
 ./create.sh rds real-estate
 ```
-### EC2(Ubuntu) 컨테이너 생성 (기존 컨테이너가 있다면 강제로 재생성)
+***EC2(Ubuntu) 컨테이너 생성 (기존 컨테이너가 있다면 강제로 재생성)***
 ```bash
 ./create.sh ec2 data-center -recreate
 ```
